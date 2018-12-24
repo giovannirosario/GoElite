@@ -16,6 +16,7 @@ public class User {
 	private String adress;
 	private String dob;
 	private String box;
+	private String photo_url;
 	
 	public User() {}
 	
@@ -45,4 +46,7 @@ public class User {
 	
 	public String getBox() {return this.box;}
 	public void setBox(String box) {this.box = box;}
+	
+	public String getPhotoUrl() {return this.photo_url;}
+	public void setPhotoUrl(String photo_url) {this.photo_url = photo_url;}
 }
