@@ -7,6 +7,7 @@ public class User {
 	@Id
 	private ObjectId _id;
 	
+	private String personal_records_id;
 	private String name;
 	private String email;
 	private String sex;
@@ -49,4 +50,8 @@ public class User {
 	
 	public String getPhotoUrl() {return this.photo_url;}
 	public void setPhotoUrl(String photo_url) {this.photo_url = photo_url;}
+	
+	public String getPersonalRecordsId() {return this.personal_records_id;}
+	public void setPersonalRecordsId(String personal_records_id) {this.personal_records_id = personal_records_id;}
+	
 }
